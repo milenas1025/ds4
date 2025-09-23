@@ -1,0 +1,15 @@
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\bin\Debug\net8.0\Labratorio53.exe
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\bin\Debug\net8.0\Labratorio53.deps.json
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\bin\Debug\net8.0\Labratorio53.runtimeconfig.json
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\bin\Debug\net8.0\Labratorio53.dll
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\bin\Debug\net8.0\Labratorio53.pdb
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\Labratorio53.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\Labratorio53.AssemblyInfoInputs.cache
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\Labratorio53.AssemblyInfo.cs
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\Labratorio53.csproj.CoreCompileInputs.cache
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\Labratorio53.sourcelink.json
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\Labratorio53.dll
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\refint\Labratorio53.dll
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\Labratorio53.pdb
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\Labratorio53.genruntimeconfig.cache
+C:\Users\milen\source\repos\ds4\Laboratorio5\Labratorio53\obj\Debug\net8.0\ref\Labratorio53.dll
