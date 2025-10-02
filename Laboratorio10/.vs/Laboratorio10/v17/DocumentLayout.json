@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\milen\\source\\repos\\ds4\\Laboratorio10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{208AF3B1-CF89-4944-8C4E-EF0B88832C74}|Laboratorio104\\Laboratorio104.vbproj|c:\\users\\milen\\source\\repos\\ds4\\laboratorio10\\laboratorio104\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{208AF3B1-CF89-4944-8C4E-EF0B88832C74}|Laboratorio104\\Laboratorio104.vbproj|solutionrelative:laboratorio104\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A659F17-8DA8-4AFB-912D-055F3B1FE43B}|Laboratorio103\\Laboratorio103.vbproj|c:\\users\\milen\\source\\repos\\ds4\\laboratorio10\\laboratorio103\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5A659F17-8DA8-4AFB-912D-055F3B1FE43B}|Laboratorio103\\Laboratorio103.vbproj|solutionrelative:laboratorio103\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D86E32F-959A-4ECC-859A-3A08B6840A64}|Laboratorio102\\Laboratorio102.vbproj|c:\\users\\milen\\source\\repos\\ds4\\laboratorio10\\laboratorio102\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1D86E32F-959A-4ECC-859A-3A08B6840A64}|Laboratorio102\\Laboratorio102.vbproj|solutionrelative:laboratorio102\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697A5AE0-E4FC-4194-A45D-7927508878FC}|Laboratorio10\\Laboratorio10.vbproj|c:\\users\\milen\\source\\repos\\ds4\\laboratorio10\\laboratorio10\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{697A5AE0-E4FC-4194-A45D-7927508878FC}|Laboratorio10\\Laboratorio10.vbproj|solutionrelative:laboratorio10\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\Laboratorio10\\Laboratorio104\\Program.vb",
+              "RelativeDocumentMoniker": "Laboratorio104\\Program.vb",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\Laboratorio10\\Laboratorio104\\Program.vb",
+              "RelativeToolTip": "Laboratorio104\\Program.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-02T00:29:43.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\Laboratorio10\\Laboratorio103\\Program.vb",
+              "RelativeDocumentMoniker": "Laboratorio103\\Program.vb",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\Laboratorio10\\Laboratorio103\\Program.vb",
+              "RelativeToolTip": "Laboratorio103\\Program.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-02T00:26:38.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\Laboratorio10\\Laboratorio102\\Program.vb",
+              "RelativeDocumentMoniker": "Laboratorio102\\Program.vb",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\Laboratorio10\\Laboratorio102\\Program.vb",
+              "RelativeToolTip": "Laboratorio102\\Program.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-02T00:19:54.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\Laboratorio10\\Laboratorio10\\Program.vb",
+              "RelativeDocumentMoniker": "Laboratorio10\\Program.vb",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\Laboratorio10\\Laboratorio10\\Program.vb",
+              "RelativeToolTip": "Laboratorio10\\Program.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-02T00:17:25.718Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
