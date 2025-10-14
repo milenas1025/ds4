@@ -1,0 +1,11 @@
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\bin\Debug\Laboratorio123.exe.config
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\bin\Debug\Laboratorio123.exe
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\bin\Debug\Laboratorio123.pdb
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\obj\Debug\Laboratorio123.csproj.AssemblyReference.cache
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\obj\Debug\Laboratorio123.Form1.resources
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\obj\Debug\Laboratorio123.Properties.Resources.resources
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\obj\Debug\Laboratorio123.csproj.GenerateResource.cache
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\obj\Debug\Laboratorio123.csproj.CoreCompileInputs.cache
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\obj\Debug\Laboratorio123.exe
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\obj\Debug\Laboratorio123.pdb
+C:\Users\milen\source\repos\ds4\Laboratorio12\Laboratorio123\obj\Debug\Laboratorio123.exe.config
