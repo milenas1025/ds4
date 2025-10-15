@@ -1,0 +1,1 @@
+Select ProductID, ProductName, UnitPrice From products
