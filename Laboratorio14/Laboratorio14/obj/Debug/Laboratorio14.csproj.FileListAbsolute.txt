@@ -1,0 +1,11 @@
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\bin\Debug\Laboratorio14.exe.config
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\bin\Debug\Laboratorio14.exe
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\bin\Debug\Laboratorio14.pdb
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\obj\Debug\Laboratorio14.csproj.AssemblyReference.cache
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\obj\Debug\Laboratorio14.FrmProductos.resources
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\obj\Debug\Laboratorio14.Properties.Resources.resources
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\obj\Debug\Laboratorio14.csproj.GenerateResource.cache
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\obj\Debug\Laboratorio14.csproj.CoreCompileInputs.cache
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\obj\Debug\Laboratorio14.exe
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\obj\Debug\Laboratorio14.pdb
+C:\Users\milen\source\repos\ds4\Laboratorio14\Laboratorio14\obj\Debug\Laboratorio14.exe.config
