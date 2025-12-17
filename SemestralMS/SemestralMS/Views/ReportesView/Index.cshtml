@@ -1,0 +1,147 @@
+﻿@{
+    ViewBag.Title = "Reportes";
+}
+
+<h2 class="mb-4 text-center">Reportes de Citas Médicas</h2>
+
+<div class="card p-4 shadow-sm">
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <label class="form-label">Tipo de reporte</label>
+            <select id="tipoReporte" class="form-select">
+                <option value="fecha">Citas por Fecha</option>
+                <option value="medico">Citas por Médico</option>
+                <option value="paciente">Citas por Paciente</option>
+                <option value="estado">Citas por Estado</option>
+            </select>
+        </div>
+
+        <div class="col-md-4">
+            <label class="form-label">Valor</label>
+            <input type="text" id="valor" class="form-control"
+                   placeholder="Ej: Pendiente | 1 | 2025-12-14|2025-12-31">
+        </div>
+
+        <div class="col-md-4 d-flex align-items-end">
+            <button class="btn btn-primary w-100" onclick="cargarReporte()">Generar Reporte</button>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover table-bordered align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>Paciente</th>
+                    <th>Médico</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-reportes">
+                <tr>
+                    <td colspan="4" class="text-center">Seleccione un reporte</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        color: #343a40;
+    }
+
+    .card {
+        border-radius: 15px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        font-weight: 500;
+        transition: all 0.3s;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+    .table {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f1f3f5;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #dbeafe;
+    }
+
+    label {
+        font-weight: 500;
+        color: #495057;
+    }
+
+    .form-select, .form-control {
+        border-radius: 8px;
+        padding: 0.5rem;
+    }
+</style>
+
+@section scripts {
+    <script>
+        function cargarReporte() {
+            const tipo = document.getElementById("tipoReporte").value;
+            const valor = document.getElementById("valor").value;
+
+            let url = "";
+
+            switch (tipo) {
+                case "estado": url = `/api/reportes/porestado?estado=${valor}`; break;
+                case "paciente": url = `/api/reportes/porpaciente/${valor}`; break;
+                case "medico": url = `/api/reportes/pormedico/${valor}`; break;
+                case "fecha":
+                    const fechas = valor.split("|");
+                    url = `/api/reportes/porfecha?desde=${fechas[0]}&hasta=${fechas[1]}`;
+                    break;
+            }
+
+            fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    const tbody = document.getElementById("tabla-reportes");
+                    tbody.innerHTML = "";
+
+                    if (data.length === 0) {
+                        tbody.innerHTML = "<tr><td colspan='4'>No hay resultados</td></tr>";
+                        return;
+                    }
+
+                    data.forEach(c => {
+                        tbody.innerHTML += `
+                    <tr>
+                        <td>${c.NombrePaciente}</td>
+                        <td>${c.NombreMedico}</td>
+                        <td>${new Date(c.Fecha).toLocaleString()}</td>
+                        <td>${c.Estado}</td>
+                    </tr>`;
+                    });
+                })
+                .catch(err => {
+                    console.error(err);
+                    document.getElementById("tabla-reportes").innerHTML = "<tr><td colspan='4'>Error al generar reporte</td></tr>";
+                });
+        }
+    </script>
+}

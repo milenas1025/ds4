@@ -1,0 +1,136 @@
+﻿@{
+    ViewBag.Title = "Pacientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Listado de Pacientes</h2>
+
+<div class="mb-3">
+    <input type="number" id="input-buscar" placeholder="Ingrese Id del paciente" class="form-control d-inline-block" style="width: 200px;">
+    <button id="btn-buscar" class="btn btn-info">Buscar</button>
+    <button id="btn-agregar" class="btn btn-success">Agregar Paciente</button>
+</div>
+
+<table class="table table-bordered table-hover">
+    <thead style="background-color: black; color: white;">
+        <tr>
+            <th>Cédula</th>
+            <th>Nombre</th>
+            <th>Teléfono</th>
+            <th>Correo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody id="tabla-pacientes">
+        <tr>
+            <td colspan="5">Cargando pacientes...</td>
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    async function cargarPacientes() {
+        const tbody = document.getElementById("tabla-pacientes");
+        tbody.innerHTML = "<tr><td colspan='5'>Cargando pacientes...</td></tr>";
+
+        try {
+            const res = await fetch('/api/pacientes');
+            if (!res.ok) throw new Error("Error en la respuesta");
+            const data = await res.json();
+
+            renderTabla(data);
+        } catch (error) {
+            tbody.innerHTML = "<tr><td colspan='5'>Error al cargar los datos</td></tr>";
+            console.error(error);
+        }
+    }
+
+    function renderTabla(data) {
+        const tbody = document.getElementById("tabla-pacientes");
+        tbody.innerHTML = "";
+
+        if (data.length === 0) {
+            tbody.innerHTML = "<tr><td colspan='5'>No hay pacientes registrados</td></tr>";
+            return;
+        }
+
+        data.forEach(p => {
+            tbody.innerHTML += `
+                <tr>
+                    <td>${p.Cedula}</td>
+                    <td>${p.Nombre}</td>
+                    <td>${p.Telefono}</td>
+                    <td>${p.Correo}</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" onclick="editarPaciente(${p.IdPaciente})">Editar</button>
+                        <button class="btn btn-danger btn-sm" onclick="eliminarPaciente(${p.IdPaciente})">Eliminar</button>
+                    </td>
+                </tr>`;
+        });
+    }
+
+    function agregarPaciente() {
+        const cedula = prompt("Ingrese Cédula:");
+        const nombre = prompt("Ingrese Nombre:");
+        const telefono = prompt("Ingrese Teléfono:");
+        const correo = prompt("Ingrese Correo:");
+
+        if (!cedula || !nombre || !telefono || !correo) return;
+
+        fetch('/api/pacientes', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ Cedula: cedula, Nombre: nombre, Telefono: telefono, Correo: correo })
+        }).then(() => cargarPacientes());
+    }
+
+    function editarPaciente(id) {
+        const fila = document.querySelector(`button[onclick='editarPaciente(${id})']`).closest('tr');
+        const cedulaActual = fila.children[0].textContent;
+        const nombreActual = fila.children[1].textContent;
+        const telefonoActual = fila.children[2].textContent;
+        const correoActual = fila.children[3].textContent;
+
+        const cedula = prompt("Ingrese nueva Cédula:", cedulaActual);
+        const nombre = prompt("Ingrese nuevo Nombre:", nombreActual);
+        const telefono = prompt("Ingrese nuevo Teléfono:", telefonoActual);
+        const correo = prompt("Ingrese nuevo Correo:", correoActual);
+
+        if (!cedula || !nombre || !telefono || !correo) return;
+
+        fetch(`/api/pacientes/${id}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ Cedula: cedula, Nombre: nombre, Telefono: telefono, Correo: correo })
+        }).then(() => cargarPacientes());
+    }
+
+    function eliminarPaciente(id) {
+        if (!confirm("¿Está seguro de eliminar este paciente?")) return;
+
+        fetch(`/api/pacientes/${id}`, { method: 'DELETE' })
+            .then(() => cargarPacientes());
+    }
+
+    async function buscarPaciente() {
+        const id = document.getElementById("input-buscar").value;
+        if (!id) return cargarPacientes();
+
+        try {
+            const res = await fetch(`/api/pacientes/${id}`);
+            if (!res.ok) throw new Error("Paciente no encontrado");
+            const data = await res.json();
+
+            renderTabla([data]); // renderizamos como un arreglo de un solo elemento
+        } catch (error) {
+            const tbody = document.getElementById("tabla-pacientes");
+            tbody.innerHTML = `<tr><td colspan='5'>Paciente con Id ${id} no encontrado</td></tr>`;
+            console.error(error);
+        }
+    }
+
+    document.getElementById("btn-agregar").addEventListener("click", agregarPaciente);
+    document.getElementById("btn-buscar").addEventListener("click", buscarPaciente);
+
+    cargarPacientes();
+</script>

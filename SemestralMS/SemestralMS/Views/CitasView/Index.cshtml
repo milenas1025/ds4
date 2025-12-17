@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Citas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Listado de Citas</h2>
+
+<div class="mb-3">
+    <label for="filtro-estado" class="form-label">Filtrar por Estado:</label>
+    <select id="filtro-estado" class="form-control" onchange="cargarCitas()">
+        <option value="">Todos</option>
+        <option value="Pendiente">Pendiente</option>
+        <option value="Atendida">Atendida</option>
+        <option value="Cancelada">Cancelada</option>
+    </select>
+</div>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead style="background-color: black; color: white;">
+        <tr>
+            <th>Paciente</th>
+            <th>Médico</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody id="tabla-citas">
+        <tr>
+            <td colspan="4">Cargando citas...</td>
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    async function cargarCitas() {
+        const estado = document.getElementById("filtro-estado").value;
+        const tbody = document.getElementById("tabla-citas");
+        tbody.innerHTML = "<tr><td colspan='4'>Cargando citas...</td></tr>";
+
+        try {
+            // Se envía el parámetro estado si está seleccionado
+            const url = estado ? `/api/citas?estado=${estado}` : '/api/citas';
+            const res = await fetch(url);
+            if (!res.ok) throw new Error("Error en la respuesta");
+            const data = await res.json();
+
+            tbody.innerHTML = "";
+
+            if (data.length === 0) {
+                tbody.innerHTML = "<tr><td colspan='4'>No hay citas registradas</td></tr>";
+                return;
+            }
+
+            data.forEach(c => {
+                tbody.innerHTML += `
+                    <tr>
+                        <td>${c.Paciente}</td>
+                        <td>${c.Medico}</td>
+                        <td>${new Date(c.Fecha).toLocaleString()}</td>
+                        <td>${c.Estado}</td>
+                    </tr>`;
+            });
+        } catch (error) {
+            tbody.innerHTML = "<tr><td colspan='4'>Error al cargar citas</td></tr>";
+            console.error(error);
+        }
+    }
+
+    // Carga inicial
+    cargarCitas();
+</script>

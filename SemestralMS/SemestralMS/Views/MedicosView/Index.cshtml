@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Médicos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Listado de Médicos</h2>
+
+<div class="mb-3">
+    <label for="filtro-especialidad">Filtrar por especialidad:</label>
+    <select id="filtro-especialidad" class="form-select" style="width: 200px;">
+        <option value="">-- Todas --</option>
+        <option value="Neurología">Neurología</option>
+        <option value="Cardiología">Cardiología</option>
+        <option value="Pediatría">Pediatría</option>
+        <option value="Dermatología">Dermatología</option>
+        <option value="Oncología">Oncología</option>
+    </select>
+</div>
+
+<table class="table table-bordered table-hover">
+    <thead style="background-color: black; color: white;">
+        <tr>
+            <th>Nombre</th>
+            <th>Especialidad</th>
+        </tr>
+    </thead>
+    <tbody id="tabla-medicos">
+        <tr>
+            <td colspan="2">Cargando médicos...</td>
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    async function cargarMedicos(especialidad = "") {
+        const tbody = document.getElementById("tabla-medicos");
+        tbody.innerHTML = "<tr><td colspan='2'>Cargando médicos...</td></tr>";
+
+        try {
+            let url = '/api/medicos';
+            if (especialidad) {
+                url += `?especialidad=${encodeURIComponent(especialidad)}`;
+            }
+
+            const res = await fetch(url);
+            if (!res.ok) throw new Error("Error al obtener médicos");
+
+            const data = await res.json();
+            tbody.innerHTML = "";
+
+            if (data.length === 0) {
+                tbody.innerHTML = "<tr><td colspan='2'>No hay médicos registrados</td></tr>";
+                return;
+            }
+
+            data.forEach(m => {
+                tbody.innerHTML += `
+                    <tr>
+                        <td>${m.Nombre}</td>
+                        <td>${m.Especialidad}</td>
+                    </tr>`;
+            });
+
+        } catch (error) {
+            tbody.innerHTML = "<tr><td colspan='2'>Error al cargar datos</td></tr>";
+            console.error(error);
+        }
+    }
+
+    document.getElementById("filtro-especialidad").addEventListener("change", (e) => {
+        cargarMedicos(e.target.value);
+    });
+
+    // Cargar todos los médicos al iniciar
+    cargarMedicos();
+</script>

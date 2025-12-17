@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\controllers\\reportesviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\controllers\\reportesviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\views\\reportesview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\views\\reportesview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\controllers\\medicosviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\controllers\\medicosviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\models\\citareporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\models\\citareporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\views\\medicosview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\views\\medicosview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\views\\citasview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\views\\citasview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|c:\\users\\milen\\source\\repos\\ds4\\semestralms\\semestralms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\views\\pacientesview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\views\\pacientesview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\controllers\\citasviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\controllers\\citasviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\controllers\\pacientesviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\controllers\\pacientesviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\semestralms\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FD3D6E2B-9D37-4EDD-9BFC-92BD92192D6C}|SemestralMS\\SemestralMS.csproj|solutionrelative:semestralms\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CitasViewController.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\CitasViewController.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Controllers\\CitasViewController.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\CitasViewController.cs",
+              "RelativeToolTip": "SemestralMS\\Controllers\\CitasViewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:46:31.715Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "SemestralMS\\Controllers\\CitasController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:39:43.935Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\PacientesView\\Index.cshtml",
+              "RelativeDocumentMoniker": "SemestralMS\\Views\\PacientesView\\Index.cshtml",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\PacientesView\\Index.cshtml",
+              "RelativeToolTip": "SemestralMS\\Views\\PacientesView\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAHkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T01:18:34.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Controllers\\ReportesController.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "SemestralMS\\Controllers\\ReportesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:06:17.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SemestralMS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SemestralMS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAIgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T00:37:18.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\CitasView\\Index.cshtml",
+              "RelativeDocumentMoniker": "SemestralMS\\Views\\CitasView\\Index.cshtml",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\CitasView\\Index.cshtml",
+              "RelativeToolTip": "SemestralMS\\Views\\CitasView\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T01:47:45.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Controllers\\PacientesController.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "SemestralMS\\Controllers\\PacientesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T19:17:05.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MedicosController.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\MedicosController.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Controllers\\MedicosController.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\MedicosController.cs",
+              "RelativeToolTip": "SemestralMS\\Controllers\\MedicosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:25:12.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicosViewController.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\MedicosViewController.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Controllers\\MedicosViewController.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\MedicosViewController.cs",
+              "RelativeToolTip": "SemestralMS\\Controllers\\MedicosViewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:39:19.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PacientesViewController.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\PacientesViewController.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Controllers\\PacientesViewController.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\PacientesViewController.cs",
+              "RelativeToolTip": "SemestralMS\\Controllers\\PacientesViewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:17:16.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportesViewController.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\ReportesViewController.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Controllers\\ReportesViewController.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Controllers\\ReportesViewController.cs",
+              "RelativeToolTip": "SemestralMS\\Controllers\\ReportesViewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T02:22:39.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\ReportesView\\Index.cshtml",
+              "RelativeDocumentMoniker": "SemestralMS\\Views\\ReportesView\\Index.cshtml",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\ReportesView\\Index.cshtml",
+              "RelativeToolTip": "SemestralMS\\Views\\ReportesView\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T02:23:19.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Models\\Cita.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Models\\Cita.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Models\\Cita.cs",
+              "RelativeToolTip": "SemestralMS\\Models\\Cita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:40:48.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Models\\Medico.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Models\\Medico.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Models\\Medico.cs",
+              "RelativeToolTip": "SemestralMS\\Models\\Medico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:23:48.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\MedicosView\\Index.cshtml",
+              "RelativeDocumentMoniker": "SemestralMS\\Views\\MedicosView\\Index.cshtml",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Views\\MedicosView\\Index.cshtml",
+              "RelativeToolTip": "SemestralMS\\Views\\MedicosView\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T01:40:31.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "SemestralMS\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T19:39:15.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CitaReporte.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Models\\CitaReporte.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Models\\CitaReporte.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Models\\CitaReporte.cs",
+              "RelativeToolTip": "SemestralMS\\Models\\CitaReporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:08:12.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Global.asax.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Global.asax.cs",
+              "RelativeToolTip": "SemestralMS\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T19:38:13.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "SemestralMS\\Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Models\\Paciente.cs",
+              "RelativeToolTip": "SemestralMS\\Models\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T19:00:46.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Web.config",
+              "RelativeDocumentMoniker": "SemestralMS\\Web.config",
+              "ToolTip": "C:\\Users\\milen\\source\\repos\\ds4\\SemestralMS\\SemestralMS\\Web.config",
+              "RelativeToolTip": "SemestralMS\\Web.config",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwD0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-14T18:42:33.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
